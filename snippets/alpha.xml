@@ -80,4 +80,5 @@
   <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
   <project path="vendor/microg" name="vendor_microg" remote="alpha-gitlab" />
   <project path="vendor/OTA" name="OTA" remote="alpha-devices" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="alpha" revision="alpha-14-pixel" />
 </manifest>
