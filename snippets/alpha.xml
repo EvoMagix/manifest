@@ -7,6 +7,12 @@
            sync-j="4"
            revision="refs/heads/alpha-15.1-wip" />
 
+  <remote  name="leo"
+           fetch="https://github.com/evomagix"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/15" />
+
   <remote  name="alpha-ssh"
            fetch="git@github.com:alphadroid-project"
            sync-c="true"
@@ -19,6 +25,9 @@
            sync-j="4"
            revision="refs/heads/alpha-15" />
 
+  <remote  name="gitea"
+           fetch="https://gitea.com" />
+           
   <remote name="alpha-gitea"
           fetch="git@gitea.com:alphadroid-project/"
           sync-c="true"
@@ -34,7 +43,7 @@
            sync-j="4"
            revision="refs/heads/alpha-15" />
 
-  <project path="manifest" name="manifest" remote="alpha" />
+  <project path="manifest" name="evomagix/manifest" remote="leo" />
 
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="alpha" />
 
